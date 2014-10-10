@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8EF782F19E5A0E2001D74F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EF782E19E5A0E2001D74F0 /* main.m */; };
+		F8EF783219E5A0E2001D74F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EF783119E5A0E2001D74F0 /* AppDelegate.m */; };
+		F8EF783819E5A0E2001D74F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EF783619E5A0E2001D74F0 /* Main.storyboard */; };
+		F8EF783A19E5A0E2001D74F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EF783919E5A0E2001D74F0 /* Images.xcassets */; };
+		F8EF783D19E5A0E2001D74F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8EF783B19E5A0E2001D74F0 /* LaunchScreen.xib */; };
+		F8EF785419E5A134001D74F0 /* TSP100PrintingService.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EF785319E5A134001D74F0 /* TSP100PrintingService.m */; };
+		F8EF785919E5A185001D74F0 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EF785619E5A185001D74F0 /* GCDAsyncSocket.m */; };
+		F8EF785A19E5A185001D74F0 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EF785819E5A185001D74F0 /* GCDAsyncUdpSocket.m */; };
+		F8EF785C19E5A1C4001D74F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EF785B19E5A1C4001D74F0 /* UIKit.framework */; };
+		F8EF786319E6D435001D74F0 /* PrinterPickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EF786219E6D435001D74F0 /* PrinterPickerTableViewController.m */; };
+		F8F956E519E84C68002ECA01 /* PrinterControlTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F956E419E84C68002ECA01 /* PrinterControlTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8EF782919E5A0E2001D74F0 /* BookerStarPrinter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookerStarPrinter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EF782D19E5A0E2001D74F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EF782E19E5A0E2001D74F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8EF783019E5A0E2001D74F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8EF783119E5A0E2001D74F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8EF783719E5A0E2001D74F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8EF783919E5A0E2001D74F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8EF783C19E5A0E2001D74F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F8EF785219E5A134001D74F0 /* TSP100PrintingService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSP100PrintingService.h; sourceTree = "<group>"; };
+		F8EF785319E5A134001D74F0 /* TSP100PrintingService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSP100PrintingService.m; sourceTree = "<group>"; };
+		F8EF785519E5A185001D74F0 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		F8EF785619E5A185001D74F0 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		F8EF785719E5A185001D74F0 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		F8EF785819E5A185001D74F0 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		F8EF785B19E5A1C4001D74F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8EF786119E6D435001D74F0 /* PrinterPickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterPickerTableViewController.h; sourceTree = "<group>"; };
+		F8EF786219E6D435001D74F0 /* PrinterPickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterPickerTableViewController.m; sourceTree = "<group>"; };
+		F8F956E319E84C68002ECA01 /* PrinterControlTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterControlTableViewController.h; sourceTree = "<group>"; };
+		F8F956E419E84C68002ECA01 /* PrinterControlTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrinterControlTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8EF782619E5A0E2001D74F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EF785C19E5A1C4001D74F0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8EF782019E5A0E2001D74F0 = {
+			isa = PBXGroup;
+			children = (
+				F8EF785B19E5A1C4001D74F0 /* UIKit.framework */,
+				F8EF782B19E5A0E2001D74F0 /* BookerStarPrinter */,
+				F8EF782A19E5A0E2001D74F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8EF782A19E5A0E2001D74F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8EF782919E5A0E2001D74F0 /* BookerStarPrinter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8EF782B19E5A0E2001D74F0 /* BookerStarPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				F8EF783019E5A0E2001D74F0 /* AppDelegate.h */,
+				F8EF783119E5A0E2001D74F0 /* AppDelegate.m */,
+				F8EF786119E6D435001D74F0 /* PrinterPickerTableViewController.h */,
+				F8EF786219E6D435001D74F0 /* PrinterPickerTableViewController.m */,
+				F8F956E319E84C68002ECA01 /* PrinterControlTableViewController.h */,
+				F8F956E419E84C68002ECA01 /* PrinterControlTableViewController.m */,
+				F8EF785219E5A134001D74F0 /* TSP100PrintingService.h */,
+				F8EF785319E5A134001D74F0 /* TSP100PrintingService.m */,
+				F8EF785D19E5B5A7001D74F0 /* CocoaAsyncSocket */,
+				F8EF783619E5A0E2001D74F0 /* Main.storyboard */,
+				F8EF783919E5A0E2001D74F0 /* Images.xcassets */,
+				F8EF783B19E5A0E2001D74F0 /* LaunchScreen.xib */,
+				F8EF782C19E5A0E2001D74F0 /* Supporting Files */,
+			);
+			path = BookerStarPrinter;
+			sourceTree = "<group>";
+		};
+		F8EF782C19E5A0E2001D74F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8EF782D19E5A0E2001D74F0 /* Info.plist */,
+				F8EF782E19E5A0E2001D74F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8EF785D19E5B5A7001D74F0 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				F8EF785519E5A185001D74F0 /* GCDAsyncSocket.h */,
+				F8EF785619E5A185001D74F0 /* GCDAsyncSocket.m */,
+				F8EF785719E5A185001D74F0 /* GCDAsyncUdpSocket.h */,
+				F8EF785819E5A185001D74F0 /* GCDAsyncUdpSocket.m */,
+			);
+			name = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8EF782819E5A0E2001D74F0 /* BookerStarPrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8EF784C19E5A0E2001D74F0 /* Build configuration list for PBXNativeTarget "BookerStarPrinter" */;
+			buildPhases = (
+				F8EF782519E5A0E2001D74F0 /* Sources */,
+				F8EF782619E5A0E2001D74F0 /* Frameworks */,
+				F8EF782719E5A0E2001D74F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookerStarPrinter;
+			productName = BookerStarPrinter;
+			productReference = F8EF782919E5A0E2001D74F0 /* BookerStarPrinter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8EF782119E5A0E2001D74F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Booker Software Inc.";
+				TargetAttributes = {
+					F8EF782819E5A0E2001D74F0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F8EF782419E5A0E2001D74F0 /* Build configuration list for PBXProject "BookerStarPrinter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8EF782019E5A0E2001D74F0;
+			productRefGroup = F8EF782A19E5A0E2001D74F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8EF782819E5A0E2001D74F0 /* BookerStarPrinter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8EF782719E5A0E2001D74F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EF783819E5A0E2001D74F0 /* Main.storyboard in Resources */,
+				F8EF783D19E5A0E2001D74F0 /* LaunchScreen.xib in Resources */,
+				F8EF783A19E5A0E2001D74F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8EF782519E5A0E2001D74F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8EF785419E5A134001D74F0 /* TSP100PrintingService.m in Sources */,
+				F8EF785919E5A185001D74F0 /* GCDAsyncSocket.m in Sources */,
+				F8EF786319E6D435001D74F0 /* PrinterPickerTableViewController.m in Sources */,
+				F8EF783219E5A0E2001D74F0 /* AppDelegate.m in Sources */,
+				F8EF785A19E5A185001D74F0 /* GCDAsyncUdpSocket.m in Sources */,
+				F8F956E519E84C68002ECA01 /* PrinterControlTableViewController.m in Sources */,
+				F8EF782F19E5A0E2001D74F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8EF783619E5A0E2001D74F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8EF783719E5A0E2001D74F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8EF783B19E5A0E2001D74F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8EF783C19E5A0E2001D74F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8EF784A19E5A0E2001D74F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8EF784B19E5A0E2001D74F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8EF784D19E5A0E2001D74F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookerStarPrinter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8EF784E19E5A0E2001D74F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BookerStarPrinter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8EF782419E5A0E2001D74F0 /* Build configuration list for PBXProject "BookerStarPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EF784A19E5A0E2001D74F0 /* Debug */,
+				F8EF784B19E5A0E2001D74F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8EF784C19E5A0E2001D74F0 /* Build configuration list for PBXNativeTarget "BookerStarPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8EF784D19E5A0E2001D74F0 /* Debug */,
+				F8EF784E19E5A0E2001D74F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8EF782119E5A0E2001D74F0 /* Project object */;
+}
