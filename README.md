@@ -1,7 +1,7 @@
 TSPPrintingExample
 ==================
 
-This is a modern driver for the TSP100 and TSP650 receipt printers for iOS written using CocoaAsyncSocket. The one supplied by StarMicronics had a number of issues.
+This is a modern raster-mode driver for the TSP100 and TSP650 receipt printers for iOS written using CocoaAsyncSocket. The one supplied by StarMicronics had a number of issues.
  - This driver doesn't lock the main thread while interacting with printer. (Unlike StarMicronic's driver)
  - This driver uses blocks for callbacks. (Unlike StarMicronic's driver)
  - This driver is a couple hundred lines of code:
