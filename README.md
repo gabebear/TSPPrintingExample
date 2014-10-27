@@ -9,6 +9,6 @@ This is a modern driver for the TSP100 and TSP650 receipt printers for iOS writt
     - no static binary blobs to worry about when ARM64v2 comes out. (Unlike StarMicronic's driver)
  - This driver works when your network blocks ICMP/pings. (Unlike StarMicronic's driver)
 
-I've tried it with a TSP650II and a couple TSP100LAN/TSP143LAN printers and it been pretty solid.
+I've tried it with a TSP650II and a couple TSP100LAN/TSP143LAN printers and it has been pretty solid.
 
 This is released under the Creative Commons Attribution-ShareAlike 4.0 International License.
