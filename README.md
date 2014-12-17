@@ -11,4 +11,5 @@ This is a modern raster-mode driver for the TSP100 and TSP650 receipt printers f
 
 I've tried it with the TSP650II/TSP654II and the TSP100LAN/TSP143LAN printers.
 
+
 This is released under the Creative Commons Attribution-ShareAlike 4.0 International License.
